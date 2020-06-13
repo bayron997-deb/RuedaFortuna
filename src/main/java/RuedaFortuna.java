@@ -13,9 +13,13 @@ public class RuedaFortuna {
         //..
         return 0;
     }
-    public int preguntaNumeroCasillas(){
+    public int preguntaNumeroCasillas(int a){
         System.out.println("ingrese el número de casillas de la ruleta");
-        int a = in.nextInt();
+         a = in.nextInt();
         return a;
+    }
+
+    public int validacion() {
+        return 0;
     }
 }
