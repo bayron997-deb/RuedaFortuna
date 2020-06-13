@@ -1,16 +1,29 @@
 import static org.junit.Assert.*;
+import org.junit.*;
 
 public class RuedaFortunaTest {
-
-    @org.junit.Test
-    public void inicializarRueda() {
+    private RuedaFortuna pruebaruedafortuna;
+    @Before
+    public void setUp() throws Exception {
+        pruebaruedafortuna = new RuedaFortuna();
     }
 
-    @org.junit.Test
+    @After
+    public void tearDown() throws Exception {
+        pruebaruedafortuna = null;
+    }
+
+    @Test
+    public void inicializarRueda() {
+
+    }
+
+    @Test
     public void lanzarRueda() {
     }
 
-    @org.junit.Test
+    @Test
     public void preguntaNumeroCasillas() {
+
     }
 }
