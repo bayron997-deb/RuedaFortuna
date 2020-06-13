@@ -1,8 +1,10 @@
 import static org.junit.Assert.*;
+
 import org.junit.*;
 
 public class RuedaFortunaTest {
     private RuedaFortuna pruebaruedafortuna;
+
     @Before
     public void setUp() throws Exception {
         pruebaruedafortuna = new RuedaFortuna();
@@ -14,16 +16,14 @@ public class RuedaFortunaTest {
     }
 
     @Test
-    public void inicializarRueda() {
-
+    public void testInicializarRueda() {
     }
 
     @Test
-    public void lanzarRueda() {
+    public void testLanzarRueda() {
     }
 
     @Test
-    public void preguntaNumeroCasillas() {
-
+    public void testPreguntaNumeroCasillas() {
     }
 }
